@@ -1,0 +1,50 @@
+{
+    "app_role_permissions": {
+      "app1": {
+        "viewer": [
+          {
+            "action": "read",
+            "resource": "dog"
+          }
+        ]
+      },
+      "portal": {
+        "developer": [
+          {
+            "action": "contribute",
+            "resource": "backstage"
+          }
+        ],
+        "viewer": [
+          {
+            "action": "read",
+            "resource": "home"
+          }
+        ]
+      }
+    },
+    "app_site_user_roles": {
+      "app1": {
+        "sites": {
+          "fro": {
+            "glalanne": {
+              "roles": [
+                "viewer"
+              ]
+            }
+          }
+        }
+      },
+      "portal": {
+        "sites": {
+          "fro": {
+            "geoffrey.lalanne@teck.com": {
+              "roles": [
+                "admin"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
